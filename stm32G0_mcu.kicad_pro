@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "custom"
+    ]
   },
   "meta": {
     "filename": "stm32G0_mcu.kicad_pro",

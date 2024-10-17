@@ -5,7 +5,7 @@
 	(uuid "d4bbc8ce-01ee-4b74-985d-2c480f6f60af")
 	(paper "A4")
 	(lib_symbols
-		(symbol "custom:W25N512GVFIR"
+		(symbol "custom:W25N512GVFIR (SPI NAND 512M)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25N512GVFIR_1_1"
+			(symbol "W25N512GVFIR (SPI NAND 512M)_1_1"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -12.7)
@@ -362,7 +362,7 @@
 				)
 			)
 		)
-		(symbol "custom:W25Q64JVSFIM"
+		(symbol "custom:W25Q64JVSFIM (SPI NOR 64M)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -409,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q64JVSFIM_1_1"
+			(symbol "W25Q64JVSFIM (SPI NOR 64M)_1_1"
 				(rectangle
 					(start -12.7 12.7)
 					(end 12.7 -12.7)
@@ -1754,10 +1754,10 @@
 		)
 		(uuid c69435a6-4566-4383-9fd0-f030b1e74d83)
 	)
-	(text_box "Flash"
+	(text_box "Flash Memory"
 		(exclude_from_sim no)
 		(at 67.31 38.1 0)
-		(size 7.62 2.54)
+		(size 15.24 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -1773,9 +1773,9 @@
 		)
 		(uuid "11bcb49c-4c3e-425b-bc05-e9f7e044cf2b")
 	)
-	(text "3V 512M SPI NAND\n"
+	(text "\n512M SPI NAND\n"
 		(exclude_from_sim no)
-		(at 155.448 86.614 0)
+		(at 153.924 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,9 +1783,9 @@
 		)
 		(uuid "df04d712-b128-45c1-8b1c-2de534dd7906")
 	)
-	(text "3V 64M SPI NOR\n\n"
+	(text "64M SPI NOR\n\n"
 		(exclude_from_sim no)
-		(at 154.686 143.51 0)
+		(at 152.908 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:W25N512GVFIR")
+		(lib_id "custom:W25N512GVFIR (SPI NAND 512M)")
 		(at 144.78 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2576,7 +2576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:W25Q64JVSFIM")
+		(lib_id "custom:W25Q64JVSFIM (SPI NOR 64M)")
 		(at 144.78 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
