@@ -5,6 +5,90 @@
 	(uuid "18f2d461-4e66-4e37-bdf1-5da1e1276a11")
 	(paper "A4")
 	(lib_symbols
+		(symbol "+5V_USB_1"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V_USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_USB_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54) (xy -0.889 1.27) (xy 0 2.54) (xy 0.889 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_USB_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54) hide
+					(name "+5V_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -422,6 +506,75 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "custom:+5V_USB"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V_USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_USB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54) hide
+					(name "+5V_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1297,6 +1450,12 @@
 		(uuid "22d3872c-4536-42d1-8876-6cf28761ea1a")
 	)
 	(junction
+		(at 95.25 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d2fb3a1-ca46-41b8-b2cf-f7823f3130fa")
+	)
+	(junction
 		(at 69.85 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1343,12 +1502,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46c5fdb-1a75-48d3-8f6f-ba3ca3299ada")
-	)
-	(junction
-		(at 95.25 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1085e60-c6f6-49bc-bb93-dbf157ef7a67")
 	)
 	(junction
 		(at 167.64 64.77)
@@ -1646,6 +1799,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 49.53) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90342ce7-65b3-4555-93bf-77a5e8ae5b2b")
+	)
+	(wire
+		(pts
 			(xy 69.85 67.31) (xy 95.25 67.31)
 		)
 		(stroke
@@ -1823,16 +1986,6 @@
 			(type default)
 		)
 		(uuid "da6fa77e-6b03-4201-93e3-32b4a6a745f7")
-	)
-	(wire
-		(pts
-			(xy 95.25 49.53) (xy 95.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db390b5d-d4c8-434c-9ecf-7b2d9cc4ff49")
 	)
 	(wire
 		(pts
@@ -2950,17 +3103,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_name "+5V_USB_1")
+		(lib_id "custom:+5V_USB")
 		(at 95.25 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4ce7d8a-d10f-4da8-a57f-d1af49d19bdd")
-		(property "Reference" "#PWR09"
-			(at 95.25 53.34 0)
+		(uuid "c16e57e1-a141-4be5-abf7-09b38af3f18c")
+		(property "Reference" "#PWR021"
+			(at 95.25 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +3122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_USB"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -2994,7 +3148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" ""
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -3004,12 +3158,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "02bba4db-0919-4d51-baa3-8f8d763f3eb2")
+			(uuid "b3323197-4449-4101-8eda-46a8bb928832")
 		)
 		(instances
 			(project ""
 				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3076,6 +3230,73 @@
 			(project ""
 				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:+5V_USB")
+		(at 95.25 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2bdb4ef-5266-4450-8623-5344cb341d72")
+		(property "Reference" "#PWR09"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6d27140-ed22-4f49-8472-4d25ab91f756")
+		)
+		(instances
+			(project ""
+				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
