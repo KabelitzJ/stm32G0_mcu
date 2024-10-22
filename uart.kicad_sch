@@ -1931,7 +1931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 80.9752 120.65 0)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 96.2152 120.65 0)
 			(effects
 				(font
@@ -2261,7 +2261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 163.322 107.95 90)
 			(effects
 				(font
@@ -2463,7 +2463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -2533,7 +2533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 165.1 118.11 0)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 172.212 107.95 90)
 			(effects
 				(font
@@ -2939,7 +2939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 167.132 60.96 90)
 			(effects
 				(font
