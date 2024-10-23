@@ -1443,6 +1443,10 @@
 		(color 0 0 0 0)
 		(uuid "fc12bf77-d75c-45cb-85a8-de9349f97714")
 	)
+	(no_connect
+		(at 25.4 80.01)
+		(uuid "c09e6b1d-bf4a-4a2a-859c-bc7bbb9f2c40")
+	)
 	(wire
 		(pts
 			(xy 142.24 64.77) (xy 148.59 64.77)
@@ -3022,7 +3026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3x2mm_AK"
 			(at 181.61 81.28 0)
 			(effects
 				(font

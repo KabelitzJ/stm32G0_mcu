@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.46
+          "height": 2.2,
+          "width": 1.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -471,6 +471,40 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.05,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.03,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,24 +514,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "power",
         "pattern": "+5V_USB"
       },
       {
-        "netclass": "Default",
+        "netclass": "power",
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
+        "netclass": "power",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Default",
+        "netclass": "signal",
         "pattern": "USB_D-"
       },
       {
-        "netclass": "Default",
+        "netclass": "signal",
         "pattern": "USB_D+"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "UART_CTS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "UART_RTS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "UART_TX"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "UART_RX"
       }
     ]
   },
