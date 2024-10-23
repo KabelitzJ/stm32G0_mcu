@@ -1957,6 +1957,7 @@
 	)
 	(label "SPI10"
 		(at 120.65 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2000,6 +2001,7 @@
 	)
 	(label "SPI11"
 		(at 120.65 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,6 +2012,7 @@
 	)
 	(label "SPI10"
 		(at 120.65 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,6 +2023,7 @@
 	)
 	(label "SPI11"
 		(at 120.65 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

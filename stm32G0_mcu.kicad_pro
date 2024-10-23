@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.2,
-          "width": 1.55
+          "height": 0.6,
+          "width": 2.05
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -548,6 +548,50 @@
       {
         "netclass": "signal",
         "pattern": "UART_RX"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "SIGNAL"
+      },
+      {
+        "netclass": "power",
+        "pattern": "NRST"
+      },
+      {
+        "netclass": "power",
+        "pattern": "RST"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/UART/RST"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "BOOT0"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "SPI1_MOSI"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "SPI1_MISO"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "SPI1_SCK"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "FLASH_CS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "FLASH_NAND_CS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "FLASH_NOR_CS"
       }
     ]
   },

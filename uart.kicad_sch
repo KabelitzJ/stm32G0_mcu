@@ -1783,6 +1783,17 @@
 		)
 		(uuid "4c643306-dae8-4870-948a-1445f0940524")
 	)
+	(label "RST"
+		(at 135.89 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a674fb7-272c-44a0-87e5-9d7171380a72")
+	)
 	(global_label "UART_RX"
 		(shape input)
 		(at 151.13 97.79 0)
