@@ -3447,8 +3447,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 182.88 0)
+		(property "Footprint" "custom:74AC14SCX"
+			(at 58.42 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
