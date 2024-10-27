@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 2.05
+          "height": 2.2,
+          "width": 1.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.0,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -484,7 +489,7 @@
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -492,16 +497,16 @@
       {
         "bus_width": 12,
         "clearance": 0.03,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -592,6 +597,30 @@
       {
         "netclass": "signal",
         "pattern": "FLASH_NOR_CS"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "OSC"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "I2C1_SCL"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "I2C1_SDA"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "OSC"
+      },
+      {
+        "netclass": "power",
+        "pattern": "TxLED"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RxLED"
       }
     ]
   },
