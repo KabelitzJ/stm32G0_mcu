@@ -85,44 +85,6 @@
 		)
 	)
 	(sheet
-		(at 25.4 101.6)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c8fc4e98-84a4-49bd-9c1e-386db6d9dbc5")
-		(property "Sheetname" "UART"
-			(at 25.4 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "uart.kicad_sch"
-			(at 25.4 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "stm32G0_mcu"
-				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 25.4 76.2)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
