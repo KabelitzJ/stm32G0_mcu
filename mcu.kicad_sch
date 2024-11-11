@@ -3872,6 +3872,16 @@
 		)
 		(uuid "45e00b5d-8b98-44f7-b716-771f8b7f268a")
 	)
+	(text "SPI Series resistors next time"
+		(exclude_from_sim no)
+		(at 205.232 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6645cea9-307b-4967-947d-a080be2490d5")
+	)
 	(text "UART1"
 		(exclude_from_sim no)
 		(at 253.746 88.9 0)

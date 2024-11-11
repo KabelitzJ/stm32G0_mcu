@@ -3617,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:UJ20-C-H-C-MSMT-TR"
+		(property "Footprint" "custom:640-USB4215-03-A"
 			(at 67.31 93.98 0)
 			(effects
 				(font
