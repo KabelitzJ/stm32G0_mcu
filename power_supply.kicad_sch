@@ -1814,6 +1814,12 @@
 		(uuid "b46c5fdb-1a75-48d3-8f6f-ba3ca3299ada")
 	)
 	(junction
+		(at 177.8 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b970cbf2-b1d1-4db9-aaa9-70439e7e5a1b")
+	)
+	(junction
 		(at 95.25 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,6 +1830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8136eaa-1c54-4488-b767-7a595e35c061")
+	)
+	(junction
+		(at 177.8 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb67e07b-0fdf-4ba9-a1ca-da77f145ed04")
 	)
 	(junction
 		(at 95.25 105.41)
@@ -2304,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "85f2c7bf-be4a-4ade-b8a3-b25b8a186130")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bba3afe-0b4d-44b1-a760-5e4ea7e2d137")
 	)
 	(wire
 		(pts
