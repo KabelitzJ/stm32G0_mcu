@@ -2147,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 72.39) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443d49df-ca16-4048-9473-c955b72eeea2")
+	)
+	(wire
+		(pts
 			(xy 254 92.71) (xy 254 95.25)
 		)
 		(stroke
@@ -2557,6 +2567,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 50.8) (xy 153.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e113f886-8da6-4d6a-8b23-445ac70a0de0")
+	)
+	(wire
+		(pts
 			(xy 175.26 100.33) (xy 180.34 100.33)
 		)
 		(stroke
@@ -2634,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "fa62c51d-20c0-49b5-bafa-30da06ad8c2c")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf15a42-1ce2-43a8-811c-8df03f311474")
 	)
 	(wire
 		(pts
@@ -2727,6 +2757,16 @@
 		)
 		(uuid "583f5638-a7f5-45a0-a1c8-4e0c4ab68382")
 	)
+	(text "Power LED\n"
+		(exclude_from_sim no)
+		(at 146.05 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c3f3b09-5ba8-460a-9f5d-2910e7e7ec9e")
+	)
 	(label "USB_D-"
 		(at 157.48 97.79 0)
 		(fields_autoplaced yes)
@@ -2760,7 +2800,7 @@
 		)
 		(uuid "70f6d6c1-e121-4d51-adeb-10d759d4de05")
 	)
-	(label "CC"
+	(label "CC2"
 		(at 69.85 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2804,7 +2844,7 @@
 		)
 		(uuid "bd7af4aa-d680-45ef-8314-dd7dc8c5f83e")
 	)
-	(label "CC"
+	(label "CC1"
 		(at 69.85 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3448,6 +3488,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23da0e7d-9628-4b1d-8260-3d6b58f215c2")
+		(property "Reference" "#PWR013"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9f4f16-d064-437f-ba57-c3c4641e7b55")
+		)
+		(instances
+			(project "stm32G0_mcu"
+				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 95.25 91.44 0)
 		(unit 1)
@@ -3877,6 +3983,76 @@
 			(project "stm32G0_mcu"
 				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 153.67 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "640a690d-9de8-42f7-bc43-5814e6992370")
+		(property "Reference" "D1"
+			(at 157.48 68.8974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.48 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3x2mm_AK"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de802dfb-b172-410b-9857-a0ceb25d79fa")
+		)
+		(pin "2"
+			(uuid "70549db3-aa9f-4e12-a2a9-db8c6a152a04")
+		)
+		(instances
+			(project "stm32G0_mcu"
+				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4353,6 +4529,142 @@
 			(project "stm32G0_mcu"
 				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915e32f3-880f-4f03-b5bd-3b3b9e50ae99")
+		(property "Reference" "#PWR012"
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86be6a59-9c6d-4d6c-b5a5-1322b3d09b50")
+		)
+		(instances
+			(project "stm32G0_mcu"
+				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931d3d52-0010-4047-8b2d-5fb0ae9f5a99")
+		(property "Reference" "R17"
+			(at 156.21 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 156.21 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad04f851-1e1b-47ea-b98c-57373b14d8f9")
+		)
+		(pin "2"
+			(uuid "cd8f13f5-9d8a-44ba-9fc3-6638f24bb4f8")
+		)
+		(instances
+			(project "stm32G0_mcu"
+				(path "/342e1e7c-839e-4cd3-a9c3-2caee679f2e5/13c5de07-3255-4d28-9ff7-29d107a6e2e5"
+					(reference "R17")
 					(unit 1)
 				)
 			)
