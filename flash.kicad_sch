@@ -332,7 +332,7 @@
 				(pin bidirectional line
 					(at -15.24 -2.54 0)
 					(length 2.54)
-					(name "HOLD(IO_{3})"
+					(name "~{HOLD}(IO_{3})"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,7 +602,7 @@
 				(pin bidirectional line
 					(at -15.24 0 0)
 					(length 2.54)
-					(name "WP(IO_{2})"
+					(name "~{WP}(IO_{2})"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,7 +689,7 @@
 				(pin bidirectional line
 					(at -15.24 -5.08 0)
 					(length 2.54)
-					(name "HOLD(IO_{3})"
+					(name "~{HOLD}(IO_{3})"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,7 +851,7 @@
 				(pin input line
 					(at -15.24 5.08 0)
 					(length 2.54)
-					(name "RESET"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -959,7 +959,7 @@
 				(pin bidirectional line
 					(at -15.24 -2.54 0)
 					(length 2.54)
-					(name "WP(IO_{2})"
+					(name "~{WP}(IO_{2})"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1230,6 +1230,12 @@
 		(uuid "53599fa2-71f6-4662-8960-40a477ee1e20")
 	)
 	(junction
+		(at 123.19 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69473df4-c1f1-4817-9fde-4b086c8f2249")
+	)
+	(junction
 		(at 170.18 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1295,10 +1301,6 @@
 		(color 0 0 0 0)
 		(uuid "eaadc55b-692c-4e70-abd8-0b656ef30ab0")
 	)
-	(no_connect
-		(at 129.54 120.65)
-		(uuid "a9b6e7d6-e6e9-429f-8509-84821cfb2773")
-	)
 	(bus_entry
 		(at 87.63 96.52)
 		(size 2.54 2.54)
@@ -1362,6 +1364,16 @@
 			(type default)
 		)
 		(uuid "0aa947f2-0bd0-4713-b8d3-e99ebf6b2d57")
+	)
+	(wire
+		(pts
+			(xy 123.19 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3de22c-ec1b-458c-a318-77ba17d455c1")
 	)
 	(wire
 		(pts
@@ -1485,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 113.03) (xy 123.19 128.27)
+			(xy 123.19 113.03) (xy 123.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1512,6 +1524,16 @@
 			(type default)
 		)
 		(uuid "4c573797-f48d-4845-b0ec-4c3c6b1c71ef")
+	)
+	(wire
+		(pts
+			(xy 123.19 120.65) (xy 123.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c63c07e-e581-4c7c-bb66-886d7f532c7d")
 	)
 	(wire
 		(pts
