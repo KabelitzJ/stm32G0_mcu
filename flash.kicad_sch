@@ -2097,7 +2097,7 @@
 		(uuid "e4833f1e-7879-402b-92f8-5408dda64db7")
 	)
 	(label "SPI1_MOSI"
-		(at 105.41 123.19 0)
+		(at 106.68 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2163,7 +2163,7 @@
 		(uuid "8d78b54b-a4ce-4571-9937-a98c5edd6dcd")
 	)
 	(label "SPI1_MISO"
-		(at 105.41 125.73 0)
+		(at 106.68 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
